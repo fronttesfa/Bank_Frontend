@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "349912452141",
+    "firebase_url": "https://registration-login-d963f-default-rtdb.firebaseio.com",
+    "project_id": "registration-login-d963f",
+    "storage_bucket": "registration-login-d963f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349912452141:android:c50a06e1fe8e90f380bca4",
+        "android_client_info": {
+          "package_name": "com.example.front_end"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjv_e20C1mGGQAXL8qkQ1t7EFCxXK1xjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349912452141:android:1343d907a221076680bca4",
+        "android_client_info": {
+          "package_name": "com.example.registration_login_form"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjv_e20C1mGGQAXL8qkQ1t7EFCxXK1xjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
