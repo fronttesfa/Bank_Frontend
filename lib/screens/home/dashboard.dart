@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:front_end/models/transaction.dart';
+import 'package:front_end/screens/deposit/deposit_main.dart';
 import 'package:front_end/widgets/drop_down_card.dart';
+import 'package:go_router/go_router.dart';
 
 class Dashboard extends StatelessWidget {
   Dashboard({Key? key}) : super(key: key);
@@ -70,7 +72,7 @@ class Dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        // backgroundColor: Theme.of(context).colorScheme.background,
         body: Column(
           children: [
             AccordionCard(),
@@ -87,7 +89,28 @@ class Dashboard extends StatelessWidget {
                     quickButtons(
                         () {}, "Transfer", Icons.transfer_within_a_station),
                     quickButtons(() {}, "Pay", Icons.payment),
-                    quickButtons(() {}, "Deposit", Icons.qr_code),
+                    Column(
+                      children: [
+                        Container(
+                          // width: double.infinity,
+                          margin: const EdgeInsets.all(10),
+                          decoration: BoxDecoration(
+                            border:
+                                Border.all(width: 2.0, color: Colors.black38),
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                          width: 56,
+                          height: 56,
+                          child: IconButton(
+                              onPressed: () => context.go('/deposit_main'),
+                              icon: Icon(Icons.qr_code)),
+                        ),
+                        Text(
+                          'Deposit',
+                          style: const TextStyle(color: Colors.grey),
+                        ),
+                      ],
+                    )
                   ],
                 ),
               ),
@@ -178,7 +201,7 @@ class Dashboard extends StatelessWidget {
                               title: Text(transaction.name),
                               subtitle: Text(
                                 transaction.date,
-                                style: const TextStyle(color: Colors.black45),
+                                // style: const TextStyle(color: Colors.white38),
                               ),
                               trailing: Text(
                                 "${transaction.isWithdraw ? "-" : "+"}\$${transaction.amount}",
@@ -222,7 +245,7 @@ class Dashboard extends StatelessWidget {
             )),
         Text(
           label,
-          style: const TextStyle(color: Colors.grey),
+          style: const TextStyle(),
         ),
       ],
     );
@@ -272,10 +295,10 @@ class CustomCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 20),
-      color: Colors.white,
+      // color: Colors.white,
       shadowColor: Colors.grey,
-      surfaceTintColor: Colors.transparent,
-      elevation: 5.0,
+      // surfaceTintColor: Colors.transparent,
+      // elevation: 5.0,
       child: child,
     );
   }
@@ -293,11 +316,12 @@ class CustomContainer extends StatelessWidget {
       // width: double.infinity,
       margin: const EdgeInsets.all(10),
       decoration: BoxDecoration(
+
           image: image == null
               ? null
               : DecorationImage(
                   fit: BoxFit.cover, image: AssetImage(image ?? "")),
-          border: Border.all(width: 2.0, color: Colors.black38),
+          border: Border.all(width: 2.0, color: Theme.of(context).cardColor),
           borderRadius: BorderRadius.circular(8.0)),
       width: 56,
       height: 56,

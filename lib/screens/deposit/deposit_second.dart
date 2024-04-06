@@ -40,6 +40,14 @@ class _DepositSecondState extends ConsumerState<DepositSecond> {
     super.dispose();
   }
 
+  void nullFields() {
+    ref.read(account.notifier).state = null;
+    ref.read(amount.notifier).state = null;
+    ref.read(checkBack.notifier).state = null;
+    ref.read(checkFront.notifier).state = null;
+    ref.read(memo.notifier).state = null;
+  }
+
   void submit() {
     var boll = (ref.read(account.notifier).state == null ||
         ref.read(amount.notifier).state == null ||
@@ -62,11 +70,7 @@ class _DepositSecondState extends ConsumerState<DepositSecond> {
                 ],
               ));
     } else {
-      ref.read(account.notifier).state = null;
-      ref.read(amount.notifier).state = null;
-      ref.read(checkBack.notifier).state = null;
-      ref.read(checkFront.notifier).state = null;
-      ref.read(memo.notifier).state = null;
+      nullFields();
       context.go('/deposit_main');
       ScaffoldMessenger.of(context).showSnackBar(
         customSnackBar(
@@ -99,6 +103,7 @@ class _DepositSecondState extends ConsumerState<DepositSecond> {
         centerTitle: true,
         leading: IconButton(
           onPressed: () {
+            nullFields();
             context.go('/deposit_main');
           },
           icon: const Icon(Icons.arrow_back),
