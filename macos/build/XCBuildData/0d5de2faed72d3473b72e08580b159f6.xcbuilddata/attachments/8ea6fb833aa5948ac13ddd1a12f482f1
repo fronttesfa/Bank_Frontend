@@ -1,0 +1,20 @@
+{
+  "" : {
+    "const-values" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/file_selector_macos-master.swiftconstvalues",
+    "dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/file_selector_macos-master.d",
+    "diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/file_selector_macos-master.dia",
+    "emit-module-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/file_selector_macos-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/file_selector_macos-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/file_selector_macos-master.swiftdeps"
+  },
+  "/Users/nardis/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.3+3/macos/Classes/FileSelectorPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/FileSelectorPlugin.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/FileSelectorPlugin.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/FileSelectorPlugin.o"
+  },
+  "/Users/nardis/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.3+3/macos/Classes/messages.g.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/messages.g.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/messages.g.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/file_selector_macos.build/Objects-normal/arm64/messages.g.o"
+  }
+}

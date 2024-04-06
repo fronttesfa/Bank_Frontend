@@ -127,6 +127,7 @@ flutter:
     - assets/images/splash/
     - assets/images/dummy/
     - assets/images/splash/
+    - assets/images/profile/
     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see

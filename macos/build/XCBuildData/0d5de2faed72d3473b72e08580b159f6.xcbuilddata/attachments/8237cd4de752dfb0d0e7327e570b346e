@@ -1,0 +1,30 @@
+{
+  "" : {
+    "const-values" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/connectivity_plus-master.swiftconstvalues",
+    "dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/connectivity_plus-master.d",
+    "diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/connectivity_plus-master.dia",
+    "emit-module-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/connectivity_plus-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/connectivity_plus-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/connectivity_plus-master.swiftdeps"
+  },
+  "/Users/nardis/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/ConnectivityPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ConnectivityPlugin.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ConnectivityPlugin.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ConnectivityPlugin.o"
+  },
+  "/Users/nardis/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/ConnectivityProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ConnectivityProvider.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ConnectivityProvider.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ConnectivityProvider.o"
+  },
+  "/Users/nardis/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/PathMonitorConnectivityProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/PathMonitorConnectivityProvider.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/PathMonitorConnectivityProvider.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/PathMonitorConnectivityProvider.o"
+  },
+  "/Users/nardis/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/macos/Classes/ReachabilityConnectivityProvider.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ReachabilityConnectivityProvider.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ReachabilityConnectivityProvider.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/connectivity_plus.build/Objects-normal/x86_64/ReachabilityConnectivityProvider.o"
+  }
+}

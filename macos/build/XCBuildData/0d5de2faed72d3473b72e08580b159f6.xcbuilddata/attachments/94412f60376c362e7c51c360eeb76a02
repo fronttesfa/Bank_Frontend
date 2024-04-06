@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/smart_auth-master.swiftconstvalues",
+    "dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/smart_auth-master.d",
+    "diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/smart_auth-master.dia",
+    "emit-module-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/smart_auth-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/smart_auth-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/smart_auth-master.swiftdeps"
+  },
+  "/Users/nardis/.pub-cache/hosted/pub.dev/smart_auth-1.1.1/macos/Classes/SmartAuthPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/SmartAuthPlugin.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/SmartAuthPlugin.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/smart_auth.build/Objects-normal/x86_64/SmartAuthPlugin.o"
+  }
+}

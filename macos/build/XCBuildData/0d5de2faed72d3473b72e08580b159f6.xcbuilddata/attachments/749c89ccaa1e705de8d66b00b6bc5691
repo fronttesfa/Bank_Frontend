@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/ReachabilitySwift-master.swiftconstvalues",
+    "dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/ReachabilitySwift-master.d",
+    "diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/ReachabilitySwift-master.dia",
+    "emit-module-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/ReachabilitySwift-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/ReachabilitySwift-master-emit-module.dia",
+    "swift-dependencies" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/ReachabilitySwift-master.swiftdeps"
+  },
+  "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/Pods/ReachabilitySwift/Sources/Reachability.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/Reachability.o",
+    "llvm-bc" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/Reachability.bc",
+    "object" : "/Users/nardis/tesfa_frontend/tesfa_frontend/macos/build/Pods.build/Release/ReachabilitySwift.build/Objects-normal/arm64/Reachability.o"
+  }
+}

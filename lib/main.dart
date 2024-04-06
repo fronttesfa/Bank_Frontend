@@ -15,6 +15,7 @@ import 'package:front_end/screens/deposit/deposit_second.dart';
 import 'package:front_end/screens/home/home.dart';
 import 'package:front_end/screens/auth/login.dart';
 import 'package:front_end/screens/intro/onboarding.dart';
+import 'package:front_end/screens/settings/profile.dart';
 import 'package:front_end/screens/signup/signup_address.dart';
 import 'package:front_end/screens/signup/signup_personal.dart';
 import 'package:front_end/screens/signup/signup_stepper.dart';
@@ -83,9 +84,10 @@ class MyAppState extends ConsumerState<MyApp> {
           GoRoute(
             path: '/',
             builder: (BuildContext context, GoRouterState state) {
-              return ref.watch(sharedUtilityProvider).isFirstTime()
-                  ? const Onboarding()
-                  : const Auth();
+              // return ref.watch(sharedUtilityProvider).isFirstTime()
+              //     ? const Onboarding()
+              //     : const Auth();
+              return Profile();
             },
           ),
           //    /products
@@ -157,6 +159,14 @@ class MyAppState extends ConsumerState<MyApp> {
               return DepositCamera(
                 cameras: widget.cameraList,
               );
+            },
+          ),
+
+          // tried route Nardi
+          GoRoute(
+            path: '/profile',
+            builder: (BuildContext context, GoRouterState state) {
+              return const Profile();
             },
           ),
           GoRoute(

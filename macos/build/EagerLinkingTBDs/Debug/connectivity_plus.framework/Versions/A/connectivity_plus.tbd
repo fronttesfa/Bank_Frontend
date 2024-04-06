@@ -1,0 +1,140 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCACycfc",
+            "_$s17connectivity_plus18ConnectivityPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tF",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC07currentD4TypeAA0dG0OvgTq",
+            "_$s17connectivity_plus18ConnectivityPluginC0A8ProviderAcA0cE0_p_tcfCTq",
+            "_$s17connectivity_plus18ConnectivityPluginC16detachFromEngine3forySo07FlutterD9Registrar_p_tFTq",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvM",
+            "_$s17connectivity_plus18ConnectivityPluginC16detachFromEngine3forySo07FlutterD9Registrar_p_tF",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC07currentE4TypeAA0eH0OvgTq",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCAA0dE0AAWP",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC07currentE4TypeAA0eH0OvpMV",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCMa",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC07currentD4TypeAA0dG0Ovg",
+            "_$s17connectivity_plus16ConnectivityTypeO9hashValueSivg",
+            "_$s17connectivity_plus16ConnectivityTypeOMn",
+            "_$s17connectivity_plus18ConnectivityPluginC8onCancel13withArgumentsSo12FlutterErrorCSgypSg_tFTq",
+            "_$s17connectivity_plus18ConnectivityPluginCACycfC",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC4stopyyF",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvpfi",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC4stopyyF",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC5startyyF",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC4stopyyFTq",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC05_pathD033_DC44086486C9B1E03CB96CC218EB1188LL7Network06NWPathD0CSgvM",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCACycfC",
+            "_$s17connectivity_plus18ConnectivityPluginC9eventSink33_6E4FC8D83CD9D5E675BBB278235DC5DFLLyypSgcSgvM",
+            "_connectivity_plusVersionString",
+            "_$s17connectivity_plus16ConnectivityTypeOSQAAMc",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC17pathUpdateHandler33_DC44086486C9B1E03CB96CC218EB1188LL0G0y7Network6NWPathV_tF",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC13_reachability33_B76754B07E532DB4F377382215B296D4LL0C0AFCSgvpfi",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC13_reachability33_B76754B07E532DB4F377382215B296D4LL0C0AFCSgvs",
+            "_$s17connectivity_plus18ConnectivityPluginC9eventSink33_6E4FC8D83CD9D5E675BBB278235DC5DFLLyypSgcSgvpfi",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvpMV",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvpWvd",
+            "_$s17connectivity_plus18ConnectivityPluginC8register4withySo07FlutterD9Registrar_p_tFZ",
+            "_$s17connectivity_plus18ConnectivityPluginCfD",
+            "_$s17connectivity_plus16ConnectivityTypeOSHAAMc",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC05_pathD033_DC44086486C9B1E03CB96CC218EB1188LL7Network06NWPathD0CSgvpfi",
+            "_$s17connectivity_plus18ConnectivityPluginC9eventSink33_6E4FC8D83CD9D5E675BBB278235DC5DFLLyypSgcSgvs",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvMTq",
+            "_$s17connectivity_plus18ConnectivityPluginC0A8ProviderAcA0cE0_p_tcfC",
+            "_$s17connectivity_plus18ConnectivityPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_$s17connectivity_plus18ConnectivityPluginC9eventSink33_6E4FC8D83CD9D5E675BBB278235DC5DFLLyypSgcSgvg",
+            "_$s17connectivity_plus16ConnectivityTypeON",
+            "_$s17connectivity_plus18ConnectivityPluginC0A8ProviderAcA0cE0_p_tcfc",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvgTq",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC06ensureC033_B76754B07E532DB4F377382215B296D4LL0C0AFCyF",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvs",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvsTq",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC5queue33_DC44086486C9B1E03CB96CC218EB1188LLSo012OS_dispatch_G0Cvpfi",
+            "_$s17connectivity_plus18ConnectivityPluginC0A13UpdateHandler33_6E4FC8D83CD9D5E675BBB278235DC5DFLL0A4TypeyAA0cP0O_tF",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvg",
+            "_$s17connectivity_plus18ConnectivityPluginCN",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC5startyyF",
+            "_$s17connectivity_plus18ConnectivityPluginC10statusFrom33_6E4FC8D83CD9D5E675BBB278235DC5DFLL0A4TypeSSAA0cP0O_tF",
+            "_$s17connectivity_plus18ConnectivityPluginCACycfc",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC05_pathD033_DC44086486C9B1E03CB96CC218EB1188LL7Network06NWPathD0CSgvg",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCAA0dE0AAMc",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC5startyyFTq",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvpMV",
+            "_connectivity_plusVersionNumber",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvsTq",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCAA0eF0AAMc",
+            "_$s17connectivity_plus16ConnectivityTypeO21__derived_enum_equalsySbAC_ACtFZ",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCMn",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC07currentD4TypeAA0dG0OvpMV",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC4stopyyFTq",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC05_pathD033_DC44086486C9B1E03CB96CC218EB1188LL7Network06NWPathD0CSgvs",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCfD",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC19reachabilityChanged33_B76754B07E532DB4F377382215B296D4LL12notificationySo14NSNotificationC_tF",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvpfi",
+            "_$s17connectivity_plus18ConnectivityPluginCMa",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvs",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCN",
+            "_$s17connectivity_plus20ConnectivityProviderMp",
+            "_$s17connectivity_plus16ConnectivityTypeOMa",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC13_reachability33_B76754B07E532DB4F377382215B296D4LL0C0AFCSgvM",
+            "_$s17connectivity_plus16ConnectivityTypeO9hashValueSivpMV",
+            "_$s17connectivity_plus16ConnectivityTypeO4hash4intoys6HasherVz_tF",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvM",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvMTq",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCAA0eF0AAWP",
+            "_$s17connectivity_plus18ConnectivityPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvgTq",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCMa",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC13_reachability33_B76754B07E532DB4F377382215B296D4LL0C0AFCSgvg",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCfD",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCACycfc",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCMn",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC0A13UpdateHandleryAA0E4TypeOcSgvg",
+            "_$s17connectivity_plus20ConnectivityProviderTL",
+            "_$s17connectivity_plus18ConnectivityPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctFTq",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC0A13UpdateHandleryAA0D4TypeOcSgvpWvd",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC07currentE4TypeAA0eH0Ovg",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderC5startyyFTq",
+            "_$s17connectivity_plus32ReachabilityConnectivityProviderCN",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderC06ensurecD033_DC44086486C9B1E03CB96CC218EB1188LL7Network06NWPathD0CyF",
+            "_$s17connectivity_plus18ConnectivityPluginCMn",
+            "_$s17connectivity_plus31PathMonitorConnectivityProviderCACycfC",
+            "_$s17connectivity_plus18ConnectivityPluginC8onListen13withArguments9eventSinkSo12FlutterErrorCSgypSg_yAJctF"
+          ],
+          "objc_class": [
+            "PodsDummy_connectivity_plus",
+            "_TtC17connectivity_plus18ConnectivityPlugin",
+            "_TtC17connectivity_plus32ReachabilityConnectivityProvider",
+            "_TtC17connectivity_plus31PathMonitorConnectivityProvider"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/connectivity_plus.framework/Versions/A/connectivity_plus"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "11",
+        "target": "arm64-macos"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'connectivity_plus' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'ReachabilitySwift' in project 'Pods'
+Target 'ReachabilitySwift' in project 'Pods'
+➜ Explicit dependency on target 'ReachabilitySwift-ReachabilitySwift' in project 'Pods'
+Target 'ReachabilitySwift-ReachabilitySwift' in project 'Pods' (no dependencies)
+Target 'FlutterMacOS' in project 'Pods' (no dependencies)
