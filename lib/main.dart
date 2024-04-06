@@ -73,7 +73,7 @@ class MyAppState extends ConsumerState<MyApp> {
     // )
     // );
     return MaterialApp.router(
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       theme: ThemeData(useMaterial3: true, colorScheme: lightColorScheme),
       darkTheme: ThemeData(useMaterial3: true, colorScheme: darkColorScheme),
       debugShowCheckedModeBanner: false,

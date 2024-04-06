@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:front_end/models/transaction.dart';
+import 'package:front_end/screens/deposit/deposit_main.dart';
 import 'package:front_end/screens/transaction/deposit.dart';
 import 'package:front_end/screens/home/dashboard.dart';
 import 'package:front_end/screens/auth/login.dart';
@@ -91,7 +92,7 @@ class HomeState extends ConsumerState<Home> {
       case 4:
         return const Profile();
       case 5:
-        return const Deposit();
+        return const DepositMain();
       case 6:
         return const Transfer();
       case 7:
