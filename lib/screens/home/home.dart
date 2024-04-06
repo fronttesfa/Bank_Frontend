@@ -102,8 +102,6 @@ class HomeState extends ConsumerState<Home> {
         return const Setting();
       case 4:
         return const Profile();
-      case 5:
-        return const DepositMain();
       case 6:
         return const Transfer();
       case 7:
