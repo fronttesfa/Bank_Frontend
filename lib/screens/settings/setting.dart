@@ -12,6 +12,13 @@ class Setting extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Center(
+      // child: ElevatedButton(
+      //     onPressed: () {
+      //       FirebaseAuth.instance.signOut();
+      //       context.go("/login");
+      //     },
+      //     child: Text("Log Out"))
+
       child: CustomButton(
         onPressed: () {
           FirebaseAuth.instance.signOut();

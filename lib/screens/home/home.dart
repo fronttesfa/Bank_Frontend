@@ -6,8 +6,8 @@ import 'package:front_end/screens/home/dashboard.dart';
 import 'package:front_end/screens/auth/login.dart';
 import 'package:front_end/screens/transaction/pay.dart';
 import 'package:front_end/screens/settings/profile.dart';
-import 'package:front_end/screens/transaction/send.dart';
 import 'package:front_end/screens/settings/setting.dart';
+import 'package:front_end/screens/transaction/send/send.dart';
 import 'package:front_end/screens/transaction/transaction_history.dart';
 import 'package:front_end/screens/transaction/transfer.dart';
 
@@ -274,11 +274,10 @@ class _ExpandableFabState extends State<ExpandableFab>
           elevation: 4,
           child: InkWell(
             onTap: _toggle,
-            child: Padding(
-              padding: const EdgeInsets.all(8),
+            child: const Padding(
+              padding: EdgeInsets.all(8),
               child: Icon(
                 Icons.close,
-                color: Theme.of(context).primaryColor,
               ),
             ),
           ),
@@ -327,7 +326,7 @@ class _ExpandableFabState extends State<ExpandableFab>
           curve: const Interval(0.25, 1.0, curve: Curves.easeInOut),
           duration: const Duration(milliseconds: 250),
           child: FloatingActionButton(
-            backgroundColor: Colors.black87,
+            // backgroundColor: Colors.black87,
             onPressed: _toggle,
             child: const Icon(Icons.arrow_upward),
           ),

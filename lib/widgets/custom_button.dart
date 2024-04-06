@@ -64,12 +64,13 @@ class CustomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      type: MaterialType.card,
+      type: MaterialType.button,
       clipBehavior: Clip.antiAlias,
-      color: isDisabled ? Colors.grey : backgroundColor,
+
+      color: isDisabled ? Colors.grey : Colors.red,
       shape: _shape,
       elevation: elevation,
-      shadowColor: Colors.black12,
+      // shadowColor: Colors.black12,
       child: InkWell(
         splashColor: _splashColor,
         onTap: isDisabled || loading
@@ -86,14 +87,14 @@ class CustomButton extends StatelessWidget {
                   shape: _shape,
                   color: isDisabled
                       ? Colors.grey
-                      : Theme.of(context).colorScheme.secondary),
+                      : Theme.of(context).primaryColor),
               child: loading
                   ? const Center(
                       child: SizedBox(
                         width: 24,
                         height: 24,
                         child: CircularProgressIndicator(
-                          color: Colors.white,
+                          // color: Colors.white,
                           strokeWidth: 2,
                         ),
                       ),

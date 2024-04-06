@@ -70,7 +70,7 @@ class Dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Theme.of(context).colorScheme.background,
+        // backgroundColor: Theme.of(context).colorScheme.background,
         body: Column(
           children: [
             AccordionCard(),
@@ -178,7 +178,7 @@ class Dashboard extends StatelessWidget {
                               title: Text(transaction.name),
                               subtitle: Text(
                                 transaction.date,
-                                style: const TextStyle(color: Colors.black45),
+                                // style: const TextStyle(color: Colors.white38),
                               ),
                               trailing: Text(
                                 "${transaction.isWithdraw ? "-" : "+"}\$${transaction.amount}",
@@ -222,7 +222,7 @@ class Dashboard extends StatelessWidget {
             )),
         Text(
           label,
-          style: const TextStyle(color: Colors.grey),
+          style: const TextStyle(),
         ),
       ],
     );
@@ -272,10 +272,10 @@ class CustomCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 8, vertical: 20),
-      color: Colors.white,
+      // color: Colors.white,
       shadowColor: Colors.grey,
-      surfaceTintColor: Colors.transparent,
-      elevation: 5.0,
+      // surfaceTintColor: Colors.transparent,
+      // elevation: 5.0,
       child: child,
     );
   }
@@ -297,7 +297,7 @@ class CustomContainer extends StatelessWidget {
               ? null
               : DecorationImage(
                   fit: BoxFit.cover, image: AssetImage(image ?? "")),
-          border: Border.all(width: 2.0, color: Colors.black38),
+          border: Border.all(width: 2.0, color: Theme.of(context).cardColor),
           borderRadius: BorderRadius.circular(8.0)),
       width: 56,
       height: 56,

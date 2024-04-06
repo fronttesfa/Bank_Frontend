@@ -3,9 +3,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:front_end/firebase_options.dart';
-import 'package:front_end/globals/theme/app_theme.dart';
-import 'package:front_end/globals/theme/theme.dart';
-import 'package:front_end/provider/shared_utility.dart';
+import 'package:front_end/globals/theme/color_schemes.g.dart';
+import 'package:front_end/screens/transaction/send/send.dart';
+import 'package:front_end/screens/transaction/send/send_details.dart';
+import 'package:front_end/screens/transaction/send/send_success.dart';
+import 'provider/shared_utility.dart';
 import 'package:front_end/screens/Password%20Reset/password_reset.dart';
 import 'package:front_end/screens/auth/Auth.dart';
 import 'package:front_end/screens/deposit/deposit_camera.dart';
@@ -21,7 +23,6 @@ import 'package:front_end/screens/signup/signup_stepper.dart';
 import 'package:camera/camera.dart';
 
 import 'package:go_router/go_router.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -66,17 +67,15 @@ class MyAppState extends ConsumerState<MyApp> {
   Widget build(BuildContext context) {
     // To cahnge the color of the status bar
 
-    SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarColor: Colors.white,
-      statusBarBrightness: Brightness.dark,
-    ));
+    // SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    //   statusBarColor: Colors.white,
+    //   statusBarBrightness: Brightness.dark,
+    // )
+    // );
     return MaterialApp.router(
-      themeMode: ThemeMode.light,
-      theme:
-          ThemeData(colorScheme: MaterialTheme.lightScheme().toColorScheme()),
-      darkTheme: ThemeData(
-          useMaterial3: true,
-          colorScheme: MaterialTheme.darkScheme().toColorScheme()),
+      themeMode: ThemeMode.dark,
+      theme: ThemeData(useMaterial3: true, colorScheme: lightColorScheme),
+      darkTheme: ThemeData(useMaterial3: true, colorScheme: darkColorScheme),
       debugShowCheckedModeBanner: false,
       routerConfig: GoRouter(
         routes: <RouteBase>[
@@ -131,6 +130,24 @@ class MyAppState extends ConsumerState<MyApp> {
             path: '/dashboard',
             builder: (BuildContext context, GoRouterState state) {
               return const Home();
+            },
+          ),
+          GoRoute(
+            path: '/send',
+            builder: (BuildContext context, GoRouterState state) {
+              return const Send();
+            },
+          ),
+          GoRoute(
+            path: '/send_details',
+            builder: (BuildContext context, GoRouterState state) {
+              return const SendDetails();
+            },
+          ),
+          GoRoute(
+            path: '/send_success',
+            builder: (BuildContext context, GoRouterState state) {
+              return const SendSuccess();
             },
           ),
           GoRoute(
