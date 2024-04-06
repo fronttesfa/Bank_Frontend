@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:front_end/models/transaction.dart';
+import 'package:front_end/screens/deposit/deposit_main.dart';
 import 'package:front_end/screens/transaction/deposit.dart';
 import 'package:front_end/screens/home/dashboard.dart';
 import 'package:front_end/screens/auth/login.dart';
@@ -12,6 +13,8 @@ import 'package:front_end/screens/transaction/transaction_history.dart';
 import 'package:front_end/screens/transaction/transfer.dart';
 
 import 'dart:math' as math;
+
+import 'package:go_router/go_router.dart';
 
 // bottom navigation provider to track current page
 final currentIndexProvider = StateProvider<int>((ref) => 0);
@@ -42,7 +45,14 @@ class HomeState extends ConsumerState<Home> {
             expandableButtons(Icons.send, "Pay", 8),
             expandableButtons(Icons.payment, "Send Money", 7),
             expandableButtons(Icons.money, "Transfer Money", 6),
-            expandableButtons(Icons.qr_code, "Deposit", 5),
+            expandableButtons(Icons.qr_code, "Deposit", 5, nav: () {
+              return context.go('/deposit_main');
+              // Navigator.of(context).push(
+              //   MaterialPageRoute(
+              //     builder: (context) => DepositMain(),
+              //   ),
+              // );
+            }),
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(
@@ -61,12 +71,14 @@ class HomeState extends ConsumerState<Home> {
         body: _buildBody());
   }
 
-  Row expandableButtons(IconData iconData, String lable, int page) {
+  Row expandableButtons(IconData iconData, String lable, int page,
+      {Function()? nav}) {
+    print('Value of nav is: ${nav}');
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         ActionButton(
-          onPressed: () => _showPage(page),
+          onPressed: nav ?? () => _showPage(page),
           icon: Icon(iconData),
         ),
         const SizedBox(
@@ -78,7 +90,7 @@ class HomeState extends ConsumerState<Home> {
   }
 
 // the pages to be dispalyed once the bottom nav items or the expandable action buttons clicked.
-  Widget _buildBody() {
+  Widget? _buildBody() {
     switch (ref.watch(currentIndexProvider)) {
       case 0:
         return Dashboard();
@@ -90,8 +102,7 @@ class HomeState extends ConsumerState<Home> {
         return const Setting();
       case 4:
         return const Profile();
-      case 5:
-        return const Deposit();
+
       case 6:
         return const Transfer();
       case 7:
@@ -192,7 +203,7 @@ abstract class _DockedFloatingActionButtonLocation
 }
 
 @immutable
-class ExpandableFab extends StatefulWidget {
+class ExpandableFab extends ConsumerStatefulWidget {
   const ExpandableFab({
     super.key,
     this.initialOpen,
@@ -205,10 +216,10 @@ class ExpandableFab extends StatefulWidget {
   final List<Widget> children;
 
   @override
-  State<ExpandableFab> createState() => _ExpandableFabState();
+  ConsumerState<ExpandableFab> createState() => _ExpandableFabState();
 }
 
-class _ExpandableFabState extends State<ExpandableFab>
+class _ExpandableFabState extends ConsumerState<ExpandableFab>
     with SingleTickerProviderStateMixin {
   late final AnimationController _controller;
   late final Animation<double> _expandAnimation;
@@ -393,6 +404,8 @@ class ActionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('value of action button ${onPressed}');
+
     final theme = Theme.of(context);
     return Material(
       shape: const CircleBorder(),
